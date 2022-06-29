@@ -43,7 +43,14 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>
+				spring-cloud-starter-netflix-eureka-client
+			</artifactId>
+		</dependency>
 	</dependencies>
+	
 
 	<build>
 		<plugins>
@@ -59,7 +66,7 @@
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>Hoxton.SR8</version>
+				<version>Hoxton.SR12</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
